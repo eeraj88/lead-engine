@@ -46,3 +46,7 @@ pipeline_test.log
 # project-specific scratch files
 check_hot_leads.js
 orca-lead-engine-konzept-v2.html
+
+# internal docs & DB migrations (kept in original dev folder only)
+docs/
+migrations/

@@ -91,7 +91,7 @@ export function DashboardClient({ initialStats, sourceKpis = [] }: DashboardClie
             <div style={{ minWidth: 0 }}>
               <span style={{ display: 'inline-flex', alignItems: 'center', gap: 9, fontSize: 11.5, fontWeight: 700, letterSpacing: '.18em', textTransform: 'uppercase' as const, color: 'var(--gold)' }}>
                 <span style={{ width: 7, height: 7, borderRadius: 99, background: 'var(--gold)', boxShadow: '0 0 0 4px rgba(217,181,0,.22)', flexShrink: 0 }} />
-                NetzWerkPlan · Sales Cockpit
+                RAYLEAD Engine
               </span>
               <h1 style={{ fontFamily: 'var(--font-head)', color: '#fff', fontSize: 42, lineHeight: 1.06, letterSpacing: '-0.03em', margin: '18px 0 0', maxWidth: '18ch' }}>
                 Finde Leads<br /><span style={{ color: 'var(--gold)' }}>auf Knopfdruck.</span>

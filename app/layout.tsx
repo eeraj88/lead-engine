@@ -22,8 +22,8 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'ORCA Lead Engine',
-  description: 'Autonome Lead-Generation-Pipeline für NetzWerkPlan',
+  title: 'RAYLEAD Engine',
+  description: 'Autonome Lead-Generation-Pipeline',
 }
 
 export default function RootLayout({

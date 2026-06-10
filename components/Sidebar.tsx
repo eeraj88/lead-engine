@@ -29,11 +29,11 @@ export function Sidebar() {
       color: 'rgba(255,255,255,.72)',
       padding: '22px 16px',
     }}>
-      {/* Brand — NetzWerkPlan Logo */}
+      {/* Brand */}
       <div style={{ padding: '6px 8px 22px' }}>
         <Image
-          src="/netzwerkplan-logo.png"
-          alt="NetzWerkPlan"
+          src="/rayle_logo.png"
+          alt="RAYLEAD Engine"
           width={180}
           height={56}
           style={{ width: '100%', height: 'auto', maxWidth: 180 }}
@@ -41,13 +41,14 @@ export function Sidebar() {
         />
         <div style={{
           fontSize: 10.5,
-          letterSpacing: '0.04em',
+          letterSpacing: '0.12em',
           textTransform: 'uppercase' as const,
-          color: 'rgba(255,255,255,.45)',
+          color: 'rgba(255,255,255,.55)',
           marginTop: 8,
           paddingLeft: 2,
+          fontWeight: 600,
         }}>
-          ORCA Lead Engine
+          RAYLEAD Engine
         </div>
       </div>
 

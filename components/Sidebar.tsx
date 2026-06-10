@@ -34,21 +34,20 @@ export function Sidebar() {
         <Image
           src="/rayle_logo.png"
           alt="RAYLEAD Engine"
-          width={52}
-          height={16}
-          style={{ width: 'auto', height: 'auto', maxWidth: 52, display: 'block' }}
+          width={56}
+          height={39}
+          style={{ width: 56, height: 39, display: 'block' }}
           priority
         />
         <div style={{
-          fontSize: 14,
-          letterSpacing: '0.12em',
-          textTransform: 'uppercase' as const,
-          color: '#fff',
-          fontWeight: 600,
+          fontFamily: 'var(--font-head)',
+          fontSize: 17,
+          letterSpacing: '0.01em',
+          fontWeight: 700,
           lineHeight: 1,
           whiteSpace: 'nowrap' as const,
         }}>
-          RAYLEAD Engine
+          <span style={{ color: 'var(--gold)' }}>RAY</span><span style={{ color: '#fff' }}>LEAD Engine</span>
         </div>
       </div>
 

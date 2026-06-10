@@ -30,23 +30,23 @@ export function Sidebar() {
       padding: '22px 16px',
     }}>
       {/* Brand */}
-      <div style={{ padding: '6px 8px 22px' }}>
+      <div style={{ padding: '6px 8px 22px', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 8 }}>
         <Image
           src="/rayle_logo.png"
           alt="RAYLEAD Engine"
-          width={180}
-          height={56}
-          style={{ width: '100%', height: 'auto', maxWidth: 180 }}
+          width={52}
+          height={16}
+          style={{ width: 'auto', height: 'auto', maxWidth: 52, display: 'block' }}
           priority
         />
         <div style={{
-          fontSize: 10.5,
+          fontSize: 14,
           letterSpacing: '0.12em',
           textTransform: 'uppercase' as const,
-          color: 'rgba(255,255,255,.55)',
-          marginTop: 8,
-          paddingLeft: 2,
+          color: '#fff',
           fontWeight: 600,
+          lineHeight: 1,
+          whiteSpace: 'nowrap' as const,
         }}>
           RAYLEAD Engine
         </div>

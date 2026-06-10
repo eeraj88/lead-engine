@@ -1,4 +1,4 @@
-import { createServerClient } from '@/lib/supabase/server'
+import { createServiceClient } from '@/lib/supabase/server'
 import { NextResponse } from 'next/server'
 
 export async function POST(
@@ -14,7 +14,7 @@ export async function POST(
       return NextResponse.json({ error: 'bookmarked must be boolean' }, { status: 400 })
     }
 
-    const supabase = await createServerClient()
+    const supabase = await createServiceClient()
 
     const { error } = await supabase
       .from('leads')
